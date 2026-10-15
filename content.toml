@@ -88,6 +88,15 @@ sha256 = ["6b4a2f2b809eacff9e7670ed9a277e998939f8cf3008c73329a9a9c55253d5b9"]
 title = "Parametric bootstrap and delta-beta influence for binomial GLMs"
 updated = "2026-10-14"
 [[vignettes]]
+added = "2026-10-15"
+citation = "Lai, G., Chang, W.-C., Yang, Y. and Liu, H. (2018). Modeling long- and short-term temporal patterns with deep neural networks. In SIGIR '18: The 41st International ACM SIGIR Conference on Research and Development in Information Retrieval, 95-104."
+files = ["LSTNet.pdf"]
+id = "LSTNet"
+pollis = "0.2.3"
+sha256 = ["8239e24f628506bf1c568de39bf55c1f16bffe899d13129c6cf26b92b30fbf1b"]
+title = "LSTNet: long- and short-term patterns in multivariate time series"
+updated = "2026-10-15"
+[[vignettes]]
 added = "2026-10-14"
 citation = "Bollerslev, T. and Ghysels, E. (1996). Periodic autoregressive conditional heteroscedasticity. Journal of Business & Economic Statistics 14(2), 139-151."
 files = ["PeriodicGARCH.pdf"]
@@ -115,6 +124,22 @@ sha256 = ["0f4212de4c3fd4fa8d49a2956b99028af22cad5c81d23a5dea92927aa039fa91"]
 title = "Threshold autoregression: SETAR models and limit cycles"
 updated = "2026-10-14"
 
+[[workflows]]
+added = "2026-10-14"
+files = ["DTWclassification.ipynb"]
+id = "DTWclassification"
+pollis = "0.2.3"
+sha256 = ["2a77336df545f69ba2772a873e5fede4ea5f0c8f7d22f52b77365fe9996c8442"]
+title = "Dynamic time warping: the UCR archive baselines"
+updated = "2026-10-14"
+[[workflows]]
+added = "2026-10-15"
+files = ["LSTNet.ipynb"]
+id = "LSTNet"
+pollis = "0.2.3"
+sha256 = ["d280733c664cba940db16cdb5dada52bc7339e2e600e41204e907d81d802635b"]
+title = "LSTNet: long- and short-term patterns in multivariate time series"
+updated = "2026-10-15"
 [[workflows]]
 added = "2026-10-14"
 files = ["forests.ipynb"]
